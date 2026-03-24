@@ -284,9 +284,11 @@ export default function COHPLECorporateSite() {
                   <div className="bg-[#eef3ff] p-5 font-semibold text-slate-700 xl:px-6 xl:py-6">
                     所在地
                   </div>
-                  <div className="p-5 text-slate-900 xl:px-6 xl:py-6">
-                    〜〜〜
-                  </div>
+<div className="p-5 text-slate-900 xl:px-6 xl:py-6">
+  〒154-0004<br />
+  東京都世田谷区太子堂4丁目18番15号<br />
+  マガザン三軒茶屋2 3F-3
+</div>
                 </div>
               </div>
             </div>
