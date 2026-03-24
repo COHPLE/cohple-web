@@ -226,7 +226,10 @@ export default function COHPLECorporateSite() {
           </div>
         </section>
 
-        <section id="profile" className="bg-white py-10 text-slate-900 sm:py-12 lg:py-14">
+        <section
+          id="profile"
+          className="bg-white py-10 text-slate-900 sm:py-12 lg:py-14"
+        >
           <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
             <div className="rounded-[24px] border border-[#1c2f7a]/10 bg-[#f8faff] p-5 shadow-sm sm:p-6 lg:p-7">
               <div className="text-sm font-semibold tracking-[0.18em] text-[#1c2f7a] uppercase">
@@ -284,18 +287,23 @@ export default function COHPLECorporateSite() {
                   <div className="bg-[#eef3ff] p-5 font-semibold text-slate-700 xl:px-6 xl:py-6">
                     所在地
                   </div>
-<div className="p-5 text-slate-900 xl:px-6 xl:py-6">
-  〒154-0004<br />
-  東京都世田谷区太子堂4丁目18番15号<br />
-  マガザン三軒茶屋2 3F-3
-</div>
+                  <div className="p-5 text-slate-900 xl:px-6 xl:py-6">
+                    〒154-0004
+                    <br />
+                    東京都世田谷区太子堂4丁目18番15号
+                    <br />
+                    マガザン三軒茶屋2 3F-3
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section id="contact" className="bg-[#1c2f7a] py-14 text-white sm:py-16 lg:py-20">
+        <section
+          id="contact"
+          className="bg-[#1c2f7a] py-14 text-white sm:py-16 lg:py-20"
+        >
           <div className="mx-auto max-w-5xl px-4 text-center sm:px-6 lg:px-8">
             <div className="text-sm font-semibold tracking-[0.18em] text-white/80 uppercase">
               Contact
