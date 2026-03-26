@@ -72,6 +72,7 @@ export default function COHPLECorporateSite() {
               COHPLE
             </div>
           </div>
+
           <nav
             aria-label="Primary"
             className="hidden items-center gap-6 text-sm text-slate-600 md:flex"
@@ -115,16 +116,16 @@ export default function COHPLECorporateSite() {
 
         <section id="mission" className="bg-white py-14 sm:py-16 lg:py-20">
           <div className={shellClass}>
-            <div className="grid gap-8 xl:grid-cols-[240px_minmax(0,1fr)] xl:gap-16">
-              <div className="xl:pt-1">
-                <div className="text-sm font-semibold tracking-[0.18em] text-[#1c2f7a] uppercase">
-                  About
-                </div>
+            <div className="max-w-5xl">
+              <div className="text-sm font-semibold tracking-[0.18em] text-[#1c2f7a] uppercase">
+                About
               </div>
-              <div className="max-w-5xl space-y-6 text-[15px] leading-8 text-slate-600 sm:text-base xl:space-y-7 xl:text-lg xl:leading-9">
+
+              <div className="mt-6 space-y-6 text-[15px] leading-8 text-slate-600 sm:text-base xl:space-y-7 xl:text-lg xl:leading-9">
                 <p>
                   私たちは、採用・労務を中心とした人事コンサルティングを提供するプロフェッショナルチームです。
                 </p>
+
                 <div className="grid gap-3 sm:grid-cols-2 xl:gap-4">
                   {issues.map((issue) => (
                     <div
@@ -135,6 +136,7 @@ export default function COHPLECorporateSite() {
                     </div>
                   ))}
                 </div>
+
                 <p>
                   こうした企業の課題をハンズオン支援で解決します。企業の成長を支える組織・仕組みを構築し、持続的に成果が出る状態をつくること。それがCOHPLEの価値です。
                 </p>
@@ -205,6 +207,7 @@ export default function COHPLECorporateSite() {
                 支援実績
               </h2>
             </div>
+
             <div className="mt-10 grid gap-4">
               {achievements.map((achievement, index) => (
                 <div
@@ -220,6 +223,7 @@ export default function COHPLECorporateSite() {
                 </div>
               ))}
             </div>
+
             <p className="mt-6 text-sm leading-7 text-slate-600 sm:text-base">
               {worksSupplement}
             </p>
@@ -261,6 +265,7 @@ export default function COHPLECorporateSite() {
                   会社概要
                 </h2>
               </div>
+
               <div className="max-w-5xl overflow-hidden rounded-[28px] border border-[#1c2f7a]/10 bg-white shadow-sm">
                 <div className="grid grid-cols-1 divide-y divide-[#1c2f7a]/10 text-sm md:grid-cols-[220px_minmax(0,1fr)] md:divide-x md:divide-y-0 xl:text-[15px]">
                   <div className="bg-[#eef3ff] p-5 font-semibold text-slate-700 xl:px-6 xl:py-6">
@@ -324,10 +329,14 @@ export default function COHPLECorporateSite() {
       </main>
 
       <footer className="border-t border-[#1c2f7a]/10 bg-white">
-        <div className="mx-auto flex max-w-[1400px] flex-col gap-3 px-4 py-8 text-center sm:px-6 lg:flex-row lg:items-center lg:justify-center lg:px-8 xl:px-12 2xl:px-16">
+        <div className="mx-auto flex max-w-[1400px] flex-col items-center gap-2 px-4 py-8 text-center sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
           <div className="text-xs leading-6 text-slate-500">
             © 2026 COHPLE Inc. All Rights Reserved.
           </div>
+
+          <a href="/privacy" className="text-xs text-slate-500 hover:underline">
+            プライバシーポリシー
+          </a>
         </div>
       </footer>
     </div>
