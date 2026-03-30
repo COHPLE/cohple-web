@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import PrivacyPolicy from './privacy.jsx'
+import Kessan from './kessan.jsx'
 import './index.css'
 
 const path = window.location.pathname
@@ -10,6 +11,8 @@ let Page
 
 if (path === "/privacy") {
   Page = PrivacyPolicy
+} else if (path === "/d4pks5r3") {
+  Page = Kessan
 } else {
   Page = App
 }
