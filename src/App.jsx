@@ -92,6 +92,14 @@ export default function COHPLECorporateSite() {
             <a href="#company" className="transition hover:text-[#1c2f7a]">
               COMPANY
             </a>
+            <a
+              href="https://cohple.co.jp/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-[#1c2f7a]"
+          >
+              RECRUIT
+            </a>
             <a href="#contact" className="transition hover:text-[#1c2f7a]">
               CONTACT
             </a>
