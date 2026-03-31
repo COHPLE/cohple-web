@@ -93,7 +93,7 @@ export default function COHPLECorporateSite() {
               COMPANY
             </a>
             <a
-              href="https://cohple.co.jp/"
+              href="https://en-gage.net/cohple_recruit/"
               target="_blank"
               rel="noopener noreferrer"
               className="transition hover:text-[#1c2f7a]"
